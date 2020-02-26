@@ -5,11 +5,8 @@
 # @File    : test_sina.py
 # @Software: PyCharm
 
-import unittest
 from page.sina import *
 from page.init import *
-import time as t
-from utils.operationXml import *
 
 class SinaTest(InitWeb,Sina):
 

@@ -5,10 +5,8 @@
 # @File    : operationXml.py
 # @Software: PyCharm
 
-
 import os
 import xml.dom.minidom
-from selenium import webdriver
 
 class OperationXml(object):
     def dir_base(self,fileName,filePath='data'):
